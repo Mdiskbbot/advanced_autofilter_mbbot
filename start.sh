@@ -5,10 +5,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/VJBots/VJ-FILTER-BOT.git /VJ-FILTER-BOT 
+  git clone https://github.com/Mdiskbbot/advanced_autofilter_mbbot.git /advanced_autofilter_mbbot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /VJ-FILTER-BOT 
+  git clone $UPSTREAM_REPO /advanced_autofilter_mbbot
 fi
 cd /VJ-FILTER-BOT 
 pip3 install -U -r requirements.txt
